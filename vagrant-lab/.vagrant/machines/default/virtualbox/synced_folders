@@ -1,1 +1,0 @@
-{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"C:/projects/devops-hands-on-lab/vagrant-lab","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

@@ -1,0 +1,9 @@
+# Ansible Galaxy
+https://galaxy.ansible.com/geerlingguy/mysql
+
+# Instalar role para mysql lib ansible galaxy
+ansible-galaxy install geerlingguy.mysql
+
+# Executar playbook ansible do db para chegar configuracoes
+ansible-playbook db.yaml --check
+
