@@ -1,1 +1,1 @@
-docker build -t devosp/node-app .
+docker build -t devops/node-app .
