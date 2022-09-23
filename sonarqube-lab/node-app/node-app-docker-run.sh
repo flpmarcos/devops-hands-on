@@ -1,0 +1,1 @@
+docker run --net devops --name node-app -p 8080:8081 -d devops/node-app
