@@ -11,3 +11,6 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 systemctl daemon-reload
 systemctl restart docker
+
+echo "Liberando o usuario jenkins acessar o docker"
+usermod -aG docker jenkins
