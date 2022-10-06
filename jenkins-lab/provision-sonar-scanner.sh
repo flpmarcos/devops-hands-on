@@ -5,3 +5,6 @@ sudo unzip sonar-scanner-cli-4.6.2.2472-linux.zip -d /opt
 sudo mv /opt/sonar-scanner-4.6.2.2472-linux /opt/sonar-scanner
 sudo chown -R jenkins:jenkins /opt/sonar-scanner
 sudo echo 'export PATH=$PATH:/opt/sonar-scanner/bin' | sudo tee -a /etc/profile
+
+
+
