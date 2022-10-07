@@ -8,6 +8,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "provision-docker.sh"
   config.vm.provision "shell", path: "provision-sonar-scanner.sh"
   config.vm.provision "shell", path: "provision-nodejs.sh"
+  # Em ambiente de Produção o ideal é ficar tudo separado
+  config.vm.provision "shell", path: "provision-nexus.sh"
   config.vm.provider "virtualbox" do |v|
     v.memory = 3072
   end
