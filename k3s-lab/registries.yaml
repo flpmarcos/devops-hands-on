@@ -1,0 +1,14 @@
+# Inserir o arquivo no diretorio 
+# vi /etc/rancher/k3s/registries.yaml
+# Reiniciar o k3s em cada node
+# service k3s restart
+
+mirrors:
+  docker.io:
+    endpoint:
+      - "http://192.168.1.6:8123"
+configs:
+  "http://192.168.1.6:8123":
+    auth:
+      username: jenkins
+      password: jenkins
