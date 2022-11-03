@@ -17,5 +17,6 @@ Vagrant.configure("2") do |config|
         wprovider.memory = "1024"
       end
       worker1.vm.network "private_network", ip: "192.168.1.3"
+      worker1.vm.network "forwarded_port", guest: 6379, host: 6379
     end
 end
