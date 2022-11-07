@@ -1,0 +1,10 @@
+# Obter credenciais cluster k3s para configurar
+cat /etc/rancher/k3s/k3s.yaml
+
+# copiar 
+
+# salvar no arquivo o conteudo copiado vai acessar o k3s 
+vi ~/.kube/config
+
+
+
